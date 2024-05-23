@@ -12,8 +12,8 @@
     <div class="container">
       <div class="logo-side">
         <div class="logo-div">
-          <img src="" alt="company logo" class="logo" />
-          <p class="company-name">Company Name</p>
+          <img src="pictures/logoipsum.svg" alt="company logo" class="logo" />
+          <p class="company-slogan"><i>Relax With Us</i></p>
         </div>
       </div>
       <div class="form-side">
@@ -26,7 +26,7 @@
             </p>
             <p>You <i>know you want to.</i></p>
           </div>
-          <form action="/pages/submit.html">
+          <form action="/pages/submit.html" method="post" >
             <div class="form-title">Let's do this!</div>
             <label for="user_firstname">*First Name:</label>
             <input type="text" id="user_firstname" value="John" required>
@@ -40,7 +40,7 @@
             <input type="password" id="user_password" value="" required>
             <label for="user_confirm">*Confirm Password:</label>
             <input type="password" id="user_confirm" value="" required>
-            <button>Create Account</button>
+            <button type="submit">Create Account</button>
           </form>
           <div class="login-div">
             <p>Already have an account? <a>Log in</a></p>
