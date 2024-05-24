@@ -9,13 +9,17 @@
     -webkit-appearance: none;
 }
 
+body {
+    background-color: #e5eff5;
+}
+
 .container {
     display: flex;
     flex-direction: row;
 }
 
 .logo-side {
-    width: 45vw;
+    width: 55vw;
     height: 100vh;
     background-image: url(pictures/logosidebackground.jpg);
     background-size: cover;
@@ -37,7 +41,7 @@
 }
 
 .company-slogan {
-    font-size: 2rem;
+    font-size: min(2vw, 2rem);
     color: white;
     margin-top: 8px;
     font-weight: 600;
@@ -46,4 +50,55 @@
 .logo {
     width: max(75px, 2em, 20vw);
     
+}
+
+
+.words {
+    font-size: min(1.75rem, 2vw);
+    margin: 32px;
+    padding-top: 8rem;
+    font-weight: 600;
+}
+
+.input {
+    width: 220px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-right: 32px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.label {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.form-title {
+    margin: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.form {
+    background-color: white;
+    width: 100%;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.wantto {
+    margin-top: 32px;
 }

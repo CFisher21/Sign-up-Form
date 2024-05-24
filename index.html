@@ -22,25 +22,38 @@
             <p>
               This is not a real online service! You know you need something
               like this in your life to help you realize your deepest dreams.
-              Sign up <i>now</i> to get started.
             </p>
-            <p>You <i>know you want to.</i></p>
+            <p>Sign up <i>now</i> to get started.</p>
+            <p class="wantto">You <i>know</i> you want to.</p>
           </div>
-          <form action="/pages/submit.html" method="post" >
+          <form action="/pages/submit.html" class="form">
+            
             <div class="form-title">Let's do this!</div>
-            <label for="user_firstname">*First Name:</label>
-            <input type="text" id="user_firstname" value="John" required>
-            <label for="user_lastname">*Last Name:</label>
-            <input type="text" id="user_lastname" value="Doe" required>
-            <label for="user_email">*Email:</label>
-            <input type="email" id="user_lastname" value="" required>
-            <label for="user_number">*Phone Number:</label>
-            <input type="number" id="user_number" value="" required>
-            <label for="user_password">*Password:</label>
-            <input type="password" id="user_password" value="" required>
-            <label for="user_confirm">*Confirm Password:</label>
-            <input type="password" id="user_confirm" value="" required>
-            <button type="submit">Create Account</button>
+
+            <div class="row">
+            <div class="column">
+              <label for="user_firstname" class="label">First Name:</label>
+              <input type="text" id="user_firstname" value="" class="input" required >
+
+              <label for="user_email" class="label">Email:</label>
+              <input type="email" id="user_lastname" value=""  class="input"required>
+
+              <label for="user_password" class="label">Password:</label>
+              <input type="password" id="user_password" value="" class="input" required>
+            </div>
+            <div class="column">
+              <label for="user_lastname" class="label">Last Name:</label>
+              <input type="text" id="user_lastname" value="" class="input" required>
+
+              <label for="user_number" class="label">Phone Number:</label>
+              <input type="number" id="user_number" value="" class="input" required>
+
+              <label for="user_confirm" class="label">Confirm Password:</label>
+              <input type="password" id="user_confirm" value="" class="input" required>
+              </div>
+            </div>
+              <button type="submit">Create Account</button>
+            
           </form>
           <div class="login-div">
             <p>Already have an account? <a>Log in</a></p>
