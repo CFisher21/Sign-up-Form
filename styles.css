@@ -125,6 +125,10 @@ body {
     cursor: pointer;
 }
 
+.margin-reset {
+    margin: 0;
+}
+
 @media (max-width: 600px) {
     .container {
         display: flex;
